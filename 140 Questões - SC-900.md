@@ -5,9 +5,9 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 
 **Declarações:**
 
-- Todas as edições de licença do Azure Active Directory incluem os mesmos recursos?
-- Você pode gerenciar um locatário do Azure Active Directory usando o Portal do Azure?
-- Você deve implantar máquinas virtuais do Azure para hospedar um locatário do Azure Active Directory?
+- Todas as edições de licença do Microsoft Entra ID incluem os mesmos recursos?
+- Você pode gerenciar um locatário do Microsoft Entra ID usando o Portal do Azure?
+- Você deve implantar máquinas virtuais do Azure para hospedar um locatário do Microsoft Entra ID?
 
 **Respostas:**
 
@@ -16,7 +16,7 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 - Terceira declaração: **Falsa**
 
 **Explicação:**  
-O Microsoft Azure Active Directory (Entra ID) é uma solução de gerenciamento de identidade e acesso na nuvem que oferece diferentes edições (Gratuita, Office 365 Apps, Premium P1 e Premium P2). A edição Gratuita está inclusa com determinadas assinaturas de serviços online, mas as edições não possuem os mesmos recursos.
+O Microsoft Microsoft Entra ID (Microsoft Entra ID) é uma solução de gerenciamento de identidade e acesso na nuvem que oferece diferentes edições (Gratuita, Office 365 Apps, Premium P1 e Premium P2). A edição Gratuita está inclusa com determinadas assinaturas de serviços online, mas as edições não possuem os mesmos recursos.
 
 ---
 
@@ -71,7 +71,7 @@ Selecione a resposta que completa corretamente a frase:
 
 **Opções:**
 
-- Centro de administração do Azure Active Directory
+- Centro de administração do Microsoft Entra ID
 - Centro de conformidade do Microsoft 365
 - Portal do Microsoft 365 Defender
 - Centro de administração do Microsoft Endpoint Manager
@@ -154,7 +154,7 @@ O Gerenciador de Conformidade do Microsoft Pervue auxilia na gestão dos requisi
 
 **Opções:**
 
-- Opção A: Entra ID Connect
+- Opção A: Entra Connect
 - Opção B: Um espaço de trabalho do Log Analytics
 - Opção C: Proteção de Informações do Azure
 - Opção D: Um conector
@@ -177,7 +177,7 @@ Os conectores permitem a integração de diversas fontes de segurança com o Azu
 - Opção A: Centro de administração do Microsoft Endpoint Manager
 - Opção B: Gerenciamento de custos do Azure
 - Opção C: Portal de Confiança de Serviço da Microsoft
-- Opção D: Centro de administração do Azure Active Directory
+- Opção D: Centro de administração do Microsoft Entra ID
 
 **Resposta Correta:**  
 Portal de Confiança de Serviço da Microsoft (Opção C)
@@ -346,11 +346,11 @@ Selecione a resposta que completa corretamente a frase:
 
 - Serviços de Domínio do Active Directory (ADDS)
 - Confianças da floresta do Active Directory
-- Azure Active Directory Business-to-Business (B2B)
-- Azure Active Directory Business-to-Consumer (B2C)
+- Microsoft Entra ID Business-to-Business (B2B)
+- Microsoft Entra ID Business-to-Consumer (B2C)
 
 **Resposta Correta:**  
-Azure Active Directory Business-to-Business (B2B)
+Microsoft Entra ID Business-to-Business (B2B)
 
 **Explicação:**  
 O recurso B2B permite convidar e gerenciar usuários externos (convidados), possibilitando colaboração segura com parceiros de negócios sem comprometer os dados corporativos.
@@ -409,9 +409,9 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 
 **Declarações:**
 
-- O Entra ID Connect pode ser usado para implementar identidade híbrida.
+- O Entra Connect pode ser usado para implementar identidade híbrida.
 - A identidade híbrida requer a implementação de dois locatários do Microsoft 365.
-- A autenticação na identidade híbrida requer a sincronização dos serviços de domínio do Active Directory e do Azure Active Directory.
+- A autenticação na identidade híbrida requer a sincronização dos serviços de domínio do Active Directory e do Microsoft Entra ID.
 
 **Respostas:**
 
@@ -420,7 +420,7 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 - Terceira declaração: **Verdadeira**
 
 **Explicação:**  
-Na identidade híbrida, as contas do AD DS local são sincronizadas com o Entra ID por meio do Entra ID Connect, o qual opera de forma unidirecional (exceto para alguns atributos específicos). Não é necessário ter dois locatários.
+Na identidade híbrida, as contas do AD DS local são sincronizadas com o Microsoft Entra ID por meio do Entra Connect, o qual opera de forma unidirecional (exceto para alguns atributos específicos). Não é necessário ter dois locatários.
 
 ---
 
@@ -572,13 +572,13 @@ O Microsoft Secure Score reflete a adoção de recomendações de segurança, ma
 
 **Opções:**
 
-- Opção A: Azure Active Directory Privileged Identity Management
+- Opção A: Microsoft Entra ID Privileged Identity Management
 - Opção B: Autenticação multifator do Azure
-- Opção C: Azure Active Directory Proteção de Identidade
+- Opção C: Identity Protection
 - Opção D: Políticas de Acesso Condicional
 
 **Resposta Correta:**  
-Azure Active Directory Privileged Identity Management (Opção A)
+Microsoft Entra ID Privileged Identity Management (Opção A)
 
 **Explicação:**  
 O PIM permite a ativação temporária de funções administrativas (por exemplo, uma janela de duas horas), ajudando a mitigar riscos de acesso excessivo.
@@ -588,20 +588,20 @@ O PIM permite a ativação temporária de funções administrativas (por exemplo
 ## Questão 29
 
 **Enunciado:**  
-“Em um modelo de identidade híbrida, o que você pode usar para sincronizar identidades entre os Serviços de Domínio do Active Directory e o Azure Active Directory?”
+“Em um modelo de identidade híbrida, o que você pode usar para sincronizar identidades entre os Serviços de Domínio do Active Directory e o Microsoft Entra ID?”
 
 **Opções:**
 
 - Opção A: Serviço de Federação do Active Directory
 - Opção B: Microsoft Sentinel
-- Opção C: Entra ID Connect
-- Opção D: Entra ID Privileged Identity Gestão
+- Opção C: Entra Connect
+- Opção D: Microsoft Entra ID Privileged Identity Gestão
 
 **Resposta Correta:**  
-Entra ID Connect (Opção C)
+Entra Connect (Opção C)
 
 **Explicação:**  
-O Entra ID Connect sincroniza as contas e atributos do Active Directory local com o Entra ID, possibilitando a identidade híbrida.
+O Entra Connect sincroniza as contas e atributos do Active Directory local com o Microsoft Entra ID, possibilitando a identidade híbrida.
 
 ---
 
@@ -612,9 +612,9 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 
 **Declarações:**
 
-- Você pode criar funções personalizadas no Azure Active Directory.
-- Administrador Global é uma função no Azure Active Directory.
-- Um usuário do Azure Active Directory pode ser atribuído a apenas uma função.
+- Você pode criar funções personalizadas no Microsoft Entra ID.
+- Administrador Global é uma função no Microsoft Entra ID.
+- Um usuário do Microsoft Entra ID pode ser atribuído a apenas uma função.
 
 **Respostas:**
 
@@ -623,7 +623,7 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 - Terceira declaração: **Falsa**
 
 **Explicação:**  
-O Entra ID permite a criação de funções personalizadas e um usuário pode ser atribuído a múltiplas funções. O Administrador Global possui acesso irrestrito aos recursos administrativos.
+O Microsoft Entra ID permite a criação de funções personalizadas e um usuário pode ser atribuído a múltiplas funções. O Administrador Global possui acesso irrestrito aos recursos administrativos.
 
 ---
 
@@ -634,9 +634,9 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 
 **Declarações:**
 
-- O Azure Active Directory é implantado em um ambiente local?
-- O Azure Active Directory é fornecido como parte da assinatura do Microsoft 365.
-- O Azure Active Directory é um serviço de gerenciamento de identidade e acesso.
+- O Microsoft Entra ID é implantado em um ambiente local?
+- O Microsoft Entra ID é fornecido como parte da assinatura do Microsoft 365.
+- O Microsoft Entra ID é um serviço de gerenciamento de identidade e acesso.
 
 **Respostas:**
 
@@ -645,7 +645,7 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 - Terceira declaração: **Falsa**
 
 **Explicação:**  
-O Entra ID é um serviço de identidade e autenticação baseado em nuvem. Embora o Microsoft 365 utilize o Entra ID, este não é “implantado” localmente, mas sim acessado como serviço em nuvem.
+O Microsoft Entra ID é um serviço de identidade e autenticação baseado em nuvem. Embora o Microsoft 365 utilize o Microsoft Entra ID, este não é “implantado” localmente, mas sim acessado como serviço em nuvem.
 
 ---
 ## Questão nº 32
@@ -658,7 +658,7 @@ _“Com o Windows Hello para Empresas, os dados biométricos de um usuário usad
 
 - É armazenado em um dispositivo externo?
 - É armazenado **apenas** em um dispositivo local?
-- É armazenado no Azure Active Directory?
+- É armazenado no Microsoft Entra ID?
 - É replicado para todos os dispositivos designados pelo usuário?
 
 **Resposta Correta:**  
@@ -672,7 +672,7 @@ O Windows Hello para Empresas substitui senhas por uma autenticação forte de d
 ## Questão nº 33
 
 **Enunciado:**  
-Qual a finalidade da proteção por senha do Azure Active Directory?
+Qual a finalidade da proteção por senha do Microsoft Entra ID?
 
 **Opções:**
 
@@ -685,21 +685,21 @@ Qual a finalidade da proteção por senha do Azure Active Directory?
 Opção D – Impedir que os usuários usem palavras específicas em suas senhas.
 
 **Explicação:**  
-A proteção por senha do Entra ID detecta e bloqueia senhas fracas e suas variantes, além de permitir a definição de uma lista personalizada de termos proibidos, fortalecendo a segurança das senhas utilizadas no locatário.
+A proteção por senha do Microsoft Entra ID detecta e bloqueia senhas fracas e suas variantes, além de permitir a definição de uma lista personalizada de termos proibidos, fortalecendo a segurança das senhas utilizadas no locatário.
 
 ---
 
 ## Questão nº 34
 
 **Enunciado:**  
-Qual recurso do Azure Active Directory você pode usar para avaliar as associações a grupos e remover automaticamente os usuários que não precisam mais ser membros de um grupo?
+Qual recurso do Microsoft Entra ID você pode usar para avaliar as associações a grupos e remover automaticamente os usuários que não precisam mais ser membros de um grupo?
 
 **Opções:**
 
 - **Opção A:** Revisões de acesso
 - **Opção B:** Identidades gerenciadas
 - **Opção C:** Políticas de acesso condicional
-- **Opção D:** Proteção de Identidade do Entra ID
+- **Opção D:** Proteção de Identidade do Microsoft Entra ID
 
 **Resposta Correta:**  
 Opção A – Revisões de acesso
@@ -726,7 +726,7 @@ Selecione a resposta que completa corretamente a frase:
 Autenticação multifator (MFA)
 
 **Explicação:**  
-A MFA do Entra ID exige que, além da senha (algo que o usuário sabe), sejam fornecidos métodos adicionais – por exemplo, um código enviado para um dispositivo (algo que o usuário tem) ou uma verificação biométrica (algo que o usuário é) – para confirmar a identidade.
+A MFA do Microsoft Entra ID exige que, além da senha (algo que o usuário sabe), sejam fornecidos métodos adicionais – por exemplo, um código enviado para um dispositivo (algo que o usuário tem) ou uma verificação biométrica (algo que o usuário é) – para confirmar a identidade.
 
 ---
 
@@ -781,8 +781,8 @@ Selecione a resposta que completa corretamente a frase:
 
 **Opções:**
 
-- Azure Active Directory
-- Entra ID Connect
+- Microsoft Entra ID
+- Entra Connect
 - Serviços de domínio do Active Directory locais
 
 **Resposta Correta:**  
@@ -797,7 +797,7 @@ O Defender para Identidade utiliza sinais provenientes dos serviços de domínio
 
 **Enunciado:**  
 Selecione a resposta que completa corretamente a frase:  
-“O Azure Active Directory é __ usado para autenticação e autorização.”
+“O Microsoft Entra ID é __ usado para autenticação e autorização.”
 
 **Opções:**
 
@@ -810,24 +810,24 @@ Selecione a resposta que completa corretamente a frase:
 Um provedor de identidade
 
 **Explicação:**  
-O Azure Active Directory, parte do Microsoft Entra, é um serviço de identidade que fornece Single Sign-On, autenticação multifator e acesso condicional para proteger o acesso aos recursos corporativos.
+O Microsoft Entra ID, parte do Microsoft Entra, é um serviço de identidade que fornece Single Sign-On, autenticação multifator e acesso condicional para proteger o acesso aos recursos corporativos.
 
 ---
 
 ## Questão nº 40
 
 **Enunciado:**  
-Qual recurso do Azure Active Directory você pode usar para fornecer acesso just-in-time aos recursos do Azure?
+Qual recurso do Microsoft Entra ID você pode usar para fornecer acesso just-in-time aos recursos do Azure?
 
 **Opções:**
 
 - **Opção A:** Políticas de acesso condicional
-- **Opção B:** Proteção de identidade do Entra ID
-- **Opção C:** Gerenciamento de Identidade Privilegiada (PIM) do Entra ID
+- **Opção B:** Proteção de identidade do Microsoft Entra ID
+- **Opção C:** Gerenciamento de Identidade Privilegiada (PIM) do Microsoft Entra ID
 - **Opção D:** Políticas de método de autenticação
 
 **Resposta Correta:**  
-Opção C – Gerenciamento de Identidade Privilegiada (PIM) do Entra ID
+Opção C – Gerenciamento de Identidade Privilegiada (PIM) do Microsoft Entra ID
 
 **Explicação:**  
 O PIM permite a ativação temporária de funções administrativas com fluxos de aprovação, fornecendo acesso just-in-time e ajudando a mitigar riscos associados a permissões excessivas.
@@ -837,7 +837,7 @@ O PIM permite a ativação temporária de funções administrativas com fluxos d
 ## Questão nº 41
 
 **Enunciado:**  
-Quais três métodos de autenticação podem ser usados pela autenticação multifator do Entra ID? Cada resposta correta apresenta uma solução completa. Cada seleção correta vale 1 ponto.
+Quais três métodos de autenticação podem ser usados pela autenticação multifator do Microsoft Entra ID? Cada resposta correta apresenta uma solução completa. Cada seleção correta vale 1 ponto.
 
 **Opções:**
 
@@ -854,7 +854,7 @@ Quais três métodos de autenticação podem ser usados pela autenticação mult
 - Opção D – Chamada telefônica
 
 **Explicação:**  
-O MFA do Entra ID pode solicitar métodos como o envio de códigos via SMS, o uso de notificações no aplicativo autenticador ou a realização de uma chamada telefônica, oferecendo múltiplas camadas de verificação.
+O MFA do Microsoft Entra ID pode solicitar métodos como o envio de códigos via SMS, o uso de notificações no aplicativo autenticador ou a realização de uma chamada telefônica, oferecendo múltiplas camadas de verificação.
 
 ---
 
@@ -887,7 +887,7 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 
 1. As políticas de acesso condicional sempre impõem o uso da autenticação multifator (MFA).
 2. As políticas de acesso condicional podem ser usadas para bloquear o acesso a um aplicativo com base na localização do usuário.
-3. As políticas de acesso condicional afetam apenas os usuários que têm dispositivos ingressados no Entra ID.
+3. As políticas de acesso condicional afetam apenas os usuários que têm dispositivos ingressados no Microsoft Entra ID.
 
 **Respostas:**
 
@@ -926,7 +926,7 @@ As políticas de acesso condicional são aplicadas **após** a autenticação do
 
 **Enunciado:**  
 Selecione a resposta que completa corretamente a frase:  
-“Os aplicativos registrados no Azure Active Directory estão associados automaticamente a um ___.”
+“Os aplicativos registrados no Microsoft Entra ID estão associados automaticamente a um ___.”
 
 **Opções:**
 
@@ -971,19 +971,19 @@ O Windows Hello para Empresas utiliza métodos como impressão digital, reconhec
 
 **Enunciado:**  
 Selecione a resposta que completa corretamente a frase:  
-“Quando você habilita os padrões de segurança no Azure Active Directory, __ será habilitado para todos os usuários do Entra ID.”
+“Quando você habilita os padrões de segurança no Microsoft Entra ID, __ será habilitado para todos os usuários do Microsoft Entra ID.”
 
 **Opções:**
 
-- Proteção de Identidade do Entra ID
-- Gerenciamento de Identidade Privilegiada (PIM) do Entra ID
+- Proteção de Identidade do Microsoft Entra ID
+- Gerenciamento de Identidade Privilegiada (PIM) do Microsoft Entra ID
 - Autenticação Multifator (MFA)
 
 **Resposta Correta:**  
 Autenticação Multifator (MFA)
 
 **Explicação:**  
-Os padrões de segurança do Entra ID exigem, por padrão, que todos os usuários se registrem para MFA – além de outras medidas, como bloquear protocolos de autenticação legados e exigir MFA para atividades administrativas.
+Os padrões de segurança do Microsoft Entra ID exigem, por padrão, que todos os usuários se registrem para MFA – além de outras medidas, como bloquear protocolos de autenticação legados e exigir MFA para atividades administrativas.
 
 ---
 
@@ -995,12 +995,12 @@ Você tem uma assinatura do Azure e precisa implementar uma ativação de funç�
 **Opções:**
 
 - **Opção A:** Windows Hello para Empresas
-- **Opção B:** Proteção de Identidade do Entra ID
-- **Opção C:** Revisões de acesso no Entra ID
-- **Opção D:** Gerenciamento de Identidade Privilegiada (PIM) do Entra ID
+- **Opção B:** Proteção de Identidade do Microsoft Entra ID
+- **Opção C:** Revisões de acesso no Microsoft Entra ID
+- **Opção D:** Gerenciamento de Identidade Privilegiada (PIM) do Microsoft Entra ID
 
 **Resposta Correta:**  
-Opção D – Gerenciamento de Identidade Privilegiada (PIM) do Entra ID
+Opção D – Gerenciamento de Identidade Privilegiada (PIM) do Microsoft Entra ID
 
 **Explicação:**  
 O PIM permite ativar funções administrativas de forma temporária, com fluxos de aprovação, mitigando riscos associados a acessos prolongados ou excessivos.
@@ -1015,7 +1015,7 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 **Declarações:**
 
 1. Os administradores globais são isentos das políticas de acesso condicional.
-2. Uma política de acesso condicional pode adicionar usuários a funções do Entra ID.
+2. Uma política de acesso condicional pode adicionar usuários a funções do Microsoft Entra ID.
 3. As políticas de acesso condicional podem impor o uso da autenticação multifator para acessar aplicativos na nuvem.
 
 **Respostas:**
@@ -1032,7 +1032,7 @@ Administradores globais não são isentos das políticas e estas não adicionam 
 ## Questão nº 50
 
 **Enunciado:**  
-Quando os padrões de segurança são habilitados para um locatário do Entra ID, quais dois requisitos são aplicados? Cada resposta correta apresenta uma solução completa. Cada seleção correta vale 1 ponto.
+Quando os padrões de segurança são habilitados para um locatário do Microsoft Entra ID, quais dois requisitos são aplicados? Cada resposta correta apresenta uma solução completa. Cada seleção correta vale 1 ponto.
 
 **Opções:**
 
@@ -1048,14 +1048,14 @@ e
 Opção C – O registro da MFA é necessário para todos os usuários
 
 **Explicação:**  
-Os padrões de segurança do Entra ID impõem que administradores utilizem MFA e que todos os usuários se registrem para MFA, aumentando a segurança geral.
+Os padrões de segurança do Microsoft Entra ID impõem que administradores utilizem MFA e que todos os usuários se registrem para MFA, aumentando a segurança geral.
 
 ---
 
 ## Questão nº 51
 
 **Enunciado:**  
-Quais três tarefas podem ser executadas usando a Proteção de Identidade do Entra ID? Cada resposta correta apresenta uma solução completa. Cada seleção correta vale 1 ponto.
+Quais três tarefas podem ser executadas usando a Proteção de Identidade do Microsoft Entra ID? Cada resposta correta apresenta uma solução completa. Cada seleção correta vale 1 ponto.
 
 **Opções:**
 
@@ -1071,7 +1071,7 @@ Opção D – Investigar os riscos relacionados à autenticação
 Opção E – Criar e atribuir automaticamente rótulos de confidencialidade aos dados
 
 **Explicação:**  
-A Proteção de Identidade do Entra ID pode automatizar respostas a riscos, investigar incidentes e aplicar rótulos de confidencialidade, integrando-se com políticas de acesso condicional.
+A Proteção de Identidade do Microsoft Entra ID pode automatizar respostas a riscos, investigar incidentes e aplicar rótulos de confidencialidade, integrando-se com políticas de acesso condicional.
 
 ---
 
@@ -1122,7 +1122,7 @@ Selecione a resposta que completa corretamente a frase:
 
 **Opções:**
 
-- Dispositivos ingressados no Entra ID
+- Dispositivos ingressados no Microsoft Entra ID
 - Identidade gerenciada
 - Princípio de serviço
 - Identidade do usuário
@@ -1131,7 +1131,7 @@ Selecione a resposta que completa corretamente a frase:
 Identidade gerenciada
 
 **Explicação:**  
-As identidades gerenciadas fornecem uma identidade para os aplicativos se autenticarem automaticamente em recursos que suportam a autenticação do Entra ID, sem a necessidade de gerenciar manualmente credenciais.
+As identidades gerenciadas fornecem uma identidade para os aplicativos se autenticarem automaticamente em recursos que suportam a autenticação do Microsoft Entra ID, sem a necessidade de gerenciar manualmente credenciais.
 
 ---
 
@@ -1246,9 +1246,9 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 
 **Declarações:**
 
-1. Uma assinatura do Azure pode ser associada a vários locatários do Entra ID.
-2. Você pode alterar o locatário do Entra ID ao qual uma assinatura do Azure está associada.
-3. Quando uma assinatura do Azure expira, o locatário associado do Entra ID é excluído automaticamente.
+1. Uma assinatura do Azure pode ser associada a vários locatários do Microsoft Entra ID.
+2. Você pode alterar o locatário do Microsoft Entra ID ao qual uma assinatura do Azure está associada.
+3. Quando uma assinatura do Azure expira, o locatário associado do Microsoft Entra ID é excluído automaticamente.
 
 **Respostas:**
 
@@ -1257,14 +1257,14 @@ Para cada uma das seguintes declarações, selecione **Sim** se a declaração f
 3. **Não**
 
 **Explicação:**  
-Uma assinatura do Azure está associada a um único locatário do Entra ID. Embora o locatário permaneça após a expiração da assinatura, o acesso aos recursos é perdido até que uma nova assinatura seja associada.
+Uma assinatura do Azure está associada a um único locatário do Microsoft Entra ID. Embora o locatário permaneça após a expiração da assinatura, o acesso aos recursos é perdido até que uma nova assinatura seja associada.
 
 ---
 
 ## Questão nº 61
 
 **Enunciado:**  
-Que tipo de identidade é criado quando você registra um aplicativo com o Active Directory (Entra ID)?
+Que tipo de identidade é criado quando você registra um aplicativo com o Active Directory (Microsoft Entra ID)?
 
 **Opções:**
 
@@ -1277,7 +1277,7 @@ Que tipo de identidade é criado quando você registra um aplicativo com o Activ
 Opção D – Um princípio de serviço
 
 **Explicação:**  
-Ao registrar um aplicativo no Entra ID, é criado automaticamente um objeto de aplicativo e um princípio de serviço, que gerencia as permissões e o acesso aos recursos.
+Ao registrar um aplicativo no Microsoft Entra ID, é criado automaticamente um objeto de aplicativo e um princípio de serviço, que gerencia as permissões e o acesso aos recursos.
 
 ---
 
@@ -1343,7 +1343,7 @@ _(Cada resposta correta vale 1 ponto.)_
 **Opções:**
 
 - **Opção A:** Máquinas Virtuais do Azure
-- **Opção B:** Usuários do Azure Active Directory
+- **Opção B:** Usuários do Microsoft Entra ID
 - **Opção C:** Caixas de correio online do Exchange da Microsoft
 - **Opção D:** Uma Rede Virtual do Azure
 - **Opção E:** Sites do SharePoint Online da Microsoft
@@ -1486,12 +1486,12 @@ O **Secure Score** fornece recomendações e benchmarks comparativos, e pontua m
 ## Questão nº 75
 
 **Enunciado:**  
-Qual recurso do Azure Active Directory você pode usar para restringir o acesso de dispositivos gerenciados pelo Microsoft Intune a recursos corporativos?
+Qual recurso do Microsoft Entra ID você pode usar para restringir o acesso de dispositivos gerenciados pelo Microsoft Intune a recursos corporativos?
 
 **Opções:**
 
 - **Opção A:** Grupos de segurança de rede
-- **Opção B:** Gerenciamento de Identidade Privilegiada do Entra ID
+- **Opção B:** Gerenciamento de Identidade Privilegiada do Microsoft Entra ID
 - **Opção C:** Políticas de Acesso Condicional
 - **Opção D:** Resource Lock
 
@@ -1815,12 +1815,12 @@ Segundo o material, a primeira afirmação é verdadeira, a segunda é falsa (o 
 ## Questão nº 91
 
 **Enunciado:**  
-Quais métodos de autenticação permitem que os usuários façam login nos serviços de ID do Microsoft Entra (anteriormente Entra ID) usando o mesmo nome de usuário e senha que usam para seu Active Directory local?
+Quais métodos de autenticação permitem que os usuários façam login nos serviços de ID do Microsoft Entra (anteriormente Microsoft Entra ID) usando o mesmo nome de usuário e senha que usam para seu Active Directory local?
 
 **Opções:**
 
 - **Opção A:** Entra Sincronização do Hash de Senha do ID
-- **Opção B:** Entra ID Pass-through Authentication
+- **Opção B:** Microsoft Entra ID Pass-through Authentication
 - **Opção C:** Federação (Autenticação)
 - **Opção D:** Entra Conexão ID
 
@@ -1828,7 +1828,7 @@ Quais métodos de autenticação permitem que os usuários façam login nos serv
 Opção A – Entra Sincronização do Hash de Senha do ID
 
 **Explicação:**  
-A **Sincronização do Hash de Senha** permite que os usuários usem as mesmas credenciais do AD local para acessar os serviços do Microsoft Entra ID, sincronizando o hash da senha para validação durante o login.
+A **Sincronização do Hash de Senha** permite que os usuários usem as mesmas credenciais do AD local para acessar os serviços do Microsoft Microsoft Entra ID, sincronizando o hash da senha para validação durante o login.
 
 ---
 
@@ -1871,7 +1871,7 @@ Conforme o material, a funcionalidade de **proteção contra ameaças** no porta
 ## Questão nº 94
 
 **Enunciado:**  
-Qual é um benefício das funções personalizadas no Microsoft Entra ID (anteriormente Entra ID)?
+Qual é um benefício das funções personalizadas no Microsoft Microsoft Entra ID (anteriormente Microsoft Entra ID)?
 
 **Opções:**
 
@@ -1911,20 +1911,20 @@ O **Microsoft Defender for Cloud Apps** (MCAS) é projetado para identificar e c
 ## Questão nº 96
 
 **Enunciado:**  
-Qual método de autenticação permite que os usuários façam login nos serviços do Microsoft Entra ID (anteriormente Entra ID) usando o mesmo nome de usuário e senha que utilizam para seu Active Directory local?
+Qual método de autenticação permite que os usuários façam login nos serviços do Microsoft Microsoft Entra ID (anteriormente Microsoft Entra ID) usando o mesmo nome de usuário e senha que utilizam para seu Active Directory local?
 
 **Opções:**
 
-- **Opção A:** Sincronização do Hash de Senha do Entra ID
-- **Opção B:** Autenticação de Pass-through do Entra ID
+- **Opção A:** Sincronização do Hash de Senha do Microsoft Entra ID
+- **Opção B:** Autenticação de Pass-through do Microsoft Entra ID
 - **Opção C:** Federação (Autenticação)
-- **Opção D:** Conexão do Entra ID
+- **Opção D:** Conexão do Microsoft Entra ID
 
 **Resposta Correta:**  
-Opção A – Sincronização do Hash de Senha do Entra ID
+Opção A – Sincronização do Hash de Senha do Microsoft Entra ID
 
 **Explicação:**  
-A **Sincronização do Hash de Senha** permite que as credenciais do AD local sejam sincronizadas para o Microsoft Entra ID, possibilitando que os usuários façam login usando as mesmas credenciais.
+A **Sincronização do Hash de Senha** permite que as credenciais do AD local sejam sincronizadas para o Microsoft Microsoft Entra ID, possibilitando que os usuários façam login usando as mesmas credenciais.
 
 ---
 
@@ -2052,17 +2052,17 @@ Os **NSGs** controlam o tráfego para recursos dentro de uma VNet, podendo ser a
 ## Questão nº 103
 
 **Enunciado:**  
-Qual método de autenticação permite que os usuários façam login nos serviços de ID do Microsoft Entra (anteriormente Entra ID) usando o mesmo nome de usuário e senha que usam para seu Active Directory local?
+Qual método de autenticação permite que os usuários façam login nos serviços de ID do Microsoft Entra (anteriormente Microsoft Entra ID) usando o mesmo nome de usuário e senha que usam para seu Active Directory local?
 
 **Opções:**
 
 - **Opção A:** Entra Sincronização do Hash de Senha do ID
-- **Opção B:** Autenticação de Pass-through do Entra ID
+- **Opção B:** Autenticação de Pass-through do Microsoft Entra ID
 - **Opção C:** Federação (Autenticação)
 - **Opção D:** Entra Conexão ID
 
 **Resposta Correta:**  
-Opção B – Autenticação de Pass-through do Entra ID
+Opção B – Autenticação de Pass-through do Microsoft Entra ID
 
 **Explicação:**  
 A **Autenticação de Pass-through** permite que as solicitações de login sejam validadas diretamente contra o Active Directory local, possibilitando o uso do mesmo nome de usuário e senha sem a necessidade de replicar o hash da senha.
@@ -2081,7 +2081,7 @@ No Windows Hello for Business, os dados biométricos de um usuário usados para 
 
 - ( ) São armazenados em um dispositivo externo
 - ( ) São armazenados **apenas** em um dispositivo local
-- ( ) São armazenados no Azure Active Directory
+- ( ) São armazenados no Microsoft Entra ID
 - ( ) São replicados para todos os dispositivos designados pelo usuário
 
 **Resposta Correta:**  
@@ -2296,20 +2296,20 @@ O conceito de privacidade de dados enfatiza a transparência e o aviso prévio a
 ## Questão nº 116
 
 **Enunciado:**  
-Qual método de autenticação fornece alta disponibilidade na nuvem para que os usuários possam ser autenticados com o Microsoft Entra ID mesmo se o Active Directory local ficar indisponível?
+Qual método de autenticação fornece alta disponibilidade na nuvem para que os usuários possam ser autenticados com o Microsoft Microsoft Entra ID mesmo se o Active Directory local ficar indisponível?
 
 **Opções:**
 
-- **A:** Sincronização do Hash de Senha do Entra ID
-- **B:** Autenticação de Pass-through do Entra ID
+- **A:** Sincronização do Hash de Senha do Microsoft Entra ID
+- **B:** Autenticação de Pass-through do Microsoft Entra ID
 - **C:** Autenticação Federada
 - **D:** Entra Conexão ID
 
 **Resposta Correta:**  
-Opção **A** – Sincronização do Hash de Senha do Entra ID
+Opção **A** – Sincronização do Hash de Senha do Microsoft Entra ID
 
 **Explicação:**  
-A Sincronização do Hash de Senha permite que o hash das senhas do AD local seja replicado para o Microsoft Entra ID, garantindo que os usuários possam se autenticar mesmo que o AD local esteja fora do ar.
+A Sincronização do Hash de Senha permite que o hash das senhas do AD local seja replicado para o Microsoft Microsoft Entra ID, garantindo que os usuários possam se autenticar mesmo que o AD local esteja fora do ar.
 
 ---
 
@@ -2336,7 +2336,7 @@ O Portal da Confiança de Serviços é a principal plataforma para acessar infor
 ## Questão nº 118
 
 **Enunciado:**  
-Você planeja conectar uma aplicação a um recurso do Azure que suporta autenticação via Microsoft Entra ID e deseja evitar a gestão manual de credenciais e custos extras. Qual tipo de identidade você deve escolher para o aplicativo?
+Você planeja conectar uma aplicação a um recurso do Azure que suporta autenticação via Microsoft Microsoft Entra ID e deseja evitar a gestão manual de credenciais e custos extras. Qual tipo de identidade você deve escolher para o aplicativo?
 
 **Opções:**
 
@@ -2356,7 +2356,7 @@ Identidades gerenciadas permitem que o aplicativo se autentique automaticamente 
 ## Questão nº 119
 
 **Enunciado:**  
-Qual é o principal propósito da colaboração B2B do Entra ID?
+Qual é o principal propósito da colaboração B2B do Microsoft Entra ID?
 
 **Opções:**
 
@@ -2369,7 +2369,7 @@ Qual é o principal propósito da colaboração B2B do Entra ID?
 Opção **B** – Compartilhar aplicativos e recursos com usuários externos
 
 **Explicação:**  
-A colaboração B2B do Entra ID permite que as organizações compartilhem de forma segura seus aplicativos e serviços com usuários convidados de outras organizações, mantendo o controle sobre os dados corporativos.
+A colaboração B2B do Microsoft Entra ID permite que as organizações compartilhem de forma segura seus aplicativos e serviços com usuários convidados de outras organizações, mantendo o controle sobre os dados corporativos.
 
 ---
 
@@ -2620,7 +2620,7 @@ NSGs podem ser aplicados a sub-redes e interfaces de rede para filtrar o tráfeg
 ## Questão nº 132
 
 **Enunciado:**  
-Quais características do Microsoft Entra ID você pode usar para gerenciar o acesso dos usuários ao longo de seu ciclo organizacional?
+Quais características do Microsoft Microsoft Entra ID você pode usar para gerenciar o acesso dos usuários ao longo de seu ciclo organizacional?
 
 **Opções:**
 
@@ -2720,20 +2720,20 @@ A Segurança Híbrida integra a proteção e a visibilidade tanto de cargas de t
 ## Questão nº 137
 
 **Enunciado:**  
-Qual método de autenticação permite que os usuários façam login nos serviços do Microsoft Entra ID (anteriormente Entra ID) usando o mesmo nome de usuário e senha que usam para o Active Directory local?
+Qual método de autenticação permite que os usuários façam login nos serviços do Microsoft Microsoft Entra ID (anteriormente Microsoft Entra ID) usando o mesmo nome de usuário e senha que usam para o Active Directory local?
 
 **Opções:**
 
-- **A:** Sincronização do Hash de Senha do Entra ID
+- **A:** Sincronização do Hash de Senha do Microsoft Entra ID
 - **B:** Entra Pass-through Authentication
 - **C:** Autenticação Federada
 - **D:** Entra Conexão ID
 
 **Resposta Correta:**  
-Opção **A** – Sincronização do Hash de Senha do Entra ID
+Opção **A** – Sincronização do Hash de Senha do Microsoft Entra ID
 
 **Explicação:**  
-Esse método sincroniza o hash das senhas do AD local com o Microsoft Entra ID, permitindo que os usuários usem as mesmas credenciais em ambos os ambientes.
+Esse método sincroniza o hash das senhas do AD local com o Microsoft Microsoft Entra ID, permitindo que os usuários usem as mesmas credenciais em ambos os ambientes.
 
 ---
 
