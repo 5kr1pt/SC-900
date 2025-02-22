@@ -19,7 +19,7 @@ Passei na certificação SC-900 e quero compartilhar meu passo a passo para quem
    _Dica Extra:_ Entenda e grave **TODOS** os conceitos em português e inglês. Um exemplo que quebra bastante é quando a Microsoft decidiu traduzir o CSPM (Cloud Security Posture Management) para GPSN (??????????). Traduzir a sigla kkkkkkk. Mas de boa
 
 6. **Complemento dos estudos**  
-   Assisti às aulas do professor Marcus Vinicius ([link](https://www.youtube.com/watch?v=7rgljUIssu4&list=PLLmKXx1axFMxbEu75Ihc1ECDSLputnvag)) e o Exam Cram ([link](https://youtu.be/_df18yKYxVY)) para complementar os estudos.
+   Assisti às aulas do professor Marcus Vinicius ([link](https://www.youtube.com/watch?v=7rgljUIssu4&list=PLLmKXx1axFMxbEu75Ihc1ECDSLputnvag)) e o Exam Cram ([link](https://youtu.be/_df18yKYxVY)) (inclusive para esse, tenho ele legendado em português caso alguem queira, pode chamar no Linkedin) para complementar os estudos.
 
 7. **Prática intensiva**  
    Realizei MUITAS questões e, quando senti que estava preparado, fiz a prova. (No meu obsidian tem bastante questões)
