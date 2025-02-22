@@ -1,6 +1,6 @@
 # Minha trilha para a Certificação SC-900
 
-Passei na certificação SC-900 e quero compartilhar meu passo a passo para quem quiser estudar. Levei uma semana para me preparar e aqui vai meu processo:
+Passei na certificação SC-900 com 950 pontos de 1000 e quero compartilhar meu passo a passo para quem quiser estudar. Levei uma semana para me preparar e aqui vai meu processo:
 
 1. **Decidi fazer a prova em um centro de treinamento**  
    Fiz isso porque sabia que não conseguiria entregar a infra necessária para realizar a prova.
